@@ -1,7 +1,7 @@
 import React from "react";
 
 function Navigation(props) {
-  const tabs = ["about", "portfolio", "contact"];
+  const tabs = ["about", "projects", "contact"];
   return (
     <ul className="nav">
       {tabs.map((tab) => (
@@ -16,6 +16,7 @@ function Navigation(props) {
             {tab}
           </a>
         </li>
+        
       ))}
     </ul>
   );

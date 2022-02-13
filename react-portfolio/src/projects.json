@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Bestest Book Review Site Ever",
+    "image": "https://user-images.githubusercontent.com/85760640/153774443-a0350ca7-0fc6-47ad-808c-c289b19bab0e.png",
+    "github": "https://github.com/pardue95/One-team-to-rule-them-all",
+    "deployedapp": "https://bbrse.herokuapp.com/",
+    "description": "This project is a CMS-style social networking site where developers can publish posts and comment on other developers post.",
+    "skills": "Express | MySQL | API | Handlebars | MVC | ORM | Express"
+  },
+  {
+    "id": 2,
+    "name": "Budget Tracker",
+    "image": "https://user-images.githubusercontent.com/85760640/153774351-907e4cd0-d93e-4eeb-b75f-fd77d0a9e42f.png",
+    "github": "https://github.com/pardue95/ideal-fortnight",
+    "deployedapp": "https://cwp-budget-tracker-pwa.herokuapp.com/",
+    "description": "This project is an application that allows users to add expenses and deposits to their budget with or without internet connection.",
+    "skills": "IndexDB | Service Workers | Web Manifest"
+  }
+]
