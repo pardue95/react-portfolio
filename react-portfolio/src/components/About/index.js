@@ -1,16 +1,33 @@
 import React from "react";
 import coverImage from "../../assets/images/cover-image.jpg";
+import { Col } from "react-bootstrap";
+
 
 function About() {
   return (
-    <section className="my-5">
-      <h1 id="about">Who am I?</h1>
-      <img
-        src={coverImage}
-        className="my-2"
-        style={{ width: "100%" }}
-        alt="cover"
-      />
+    <section className="title">
+      <div className="row justify-content-center" id="about-container">
+        <Col lg={6} md={12}>
+          {/* <h1 id="about">Claude Pardue</h1> */}
+          <center>
+            <img
+              src={coverImage}
+              className="my-image img-fluid rounded-circle "
+              alt="black dodge challenger in the hill country"
+            />
+          </center>
+          <p class="name">Claude Pardue</p>
+          <p class="job">full stack web developer</p>
+          <h2 class="education">a little about me</h2>
+          <p>
+            Hi! I am Claude!
+            <br></br>
+            <br></br>I am Full Stack Web Developer based in Austin
+            <br></br>
+            <br></br>
+          </p>
+        </Col>
+      </div>
     </section>
   );
 }

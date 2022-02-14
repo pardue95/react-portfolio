@@ -2,6 +2,7 @@ import React from "react";
 // import projects from src
 import projects from "../../projects.json";
 
+
 function ProjectCard(props) {
   return (
     <div className="card">

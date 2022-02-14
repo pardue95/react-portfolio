@@ -3,7 +3,7 @@ import React from "react";
 function Navigation(props) {
   const tabs = ["about", "projects", "contact"];
   return (
-    <ul className="nav">
+    <ul className="nav justify-content-center">
       {tabs.map((tab) => (
         <li className="nav-item" key={tab}>
           <a
@@ -16,7 +16,6 @@ function Navigation(props) {
             {tab}
           </a>
         </li>
-        
       ))}
     </ul>
   );
