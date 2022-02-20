@@ -17,8 +17,8 @@ function About() {
             />
           </center>
           <p class="name">Claude Pardue</p>
-          <p class="job">full stack web developer</p>
-          <h2 class="education">a little about me</h2>
+          <p class="job">Full Stack Web Developer</p>
+          <h2 class="education">A little about me</h2>
           <p>
             Hi! I am Claude!
             <br></br>
