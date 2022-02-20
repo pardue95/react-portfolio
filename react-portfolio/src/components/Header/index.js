@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navigation from "../Nav";
 import About from "../About";
 import Projects from "../Projects";
-// import Contact from "../Contact";
+import Contact from "../Contact";
 
 
 function Portfolio() {
@@ -14,8 +14,8 @@ function Portfolio() {
     switch (currentPage) {
       case "about":
         return <About></About>;
-      //   case "contact":
-      //     return <Contact></Contact>;
+        case "contact":
+          return <Contact></Contact>;
       case "projects":
         return <Projects></Projects>;
       // case "resume":

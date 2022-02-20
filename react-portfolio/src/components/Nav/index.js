@@ -1,7 +1,7 @@
 import React from "react";
 
 function Navigation(props) {
-  const tabs = ["about", "projects", "contact"];
+  const tabs = ["about", "projects", "contact", "resume"];
   return (
     <ul className="nav justify-content-center">
       {tabs.map((tab) => (
