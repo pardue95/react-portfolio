@@ -3,7 +3,7 @@ import Navigation from "../Nav";
 import About from "../About";
 import Projects from "../Projects";
 import Contact from "../Contact";
-
+import Resume from "../Resume";
 
 function Portfolio() {
   // state of current page
@@ -18,8 +18,8 @@ function Portfolio() {
           return <Contact></Contact>;
       case "projects":
         return <Projects></Projects>;
-      // case "resume":
-      // return <Resume></Resume>
+      case "resume":
+      return <Resume></Resume>
       default:
         return <About></About>;
     }
